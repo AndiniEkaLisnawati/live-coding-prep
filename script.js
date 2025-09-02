@@ -4,11 +4,12 @@
 //balik array 
 let input = [1, 4, 6, 7]
 function reverseArr(arr){
-    for(let i = 0; i < arr.length; i-- ){
+    for(let i = 3; i >= 0; i-- ){
         const n = arr[i]
-        console.log(arr[i])
+        return(arr[i])
+      
     }
-    return n * 2
+ 
 }
 
 console.log(reverseArr(input))
