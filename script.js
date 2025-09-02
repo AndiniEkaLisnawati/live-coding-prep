@@ -6,7 +6,7 @@ let input = [1, 4, 6, 7]
 function reverseArr(arr){
     for(let i = 3; i >= 0; i-- ){
         const n = arr[i]
-        return(arr[i])
+        console.log(n * 2)
       
     }
  
